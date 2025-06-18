@@ -10,6 +10,6 @@ services:
         value: production
       - key: PORT
         value: 5000
-build:
-  env:
-    NODE_VERSION: 20.12.2
+    build:
+      env:
+        NODE_VERSION: 20.12.2
